@@ -1,0 +1,332 @@
+object Form1: TForm1
+  Left = 939
+  Height = 357
+  Top = 220
+  Width = 297
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Calculator'
+  ClientHeight = 0
+  ClientWidth = 0
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 0
+    Height = 0
+    Top = 0
+    Width = 0
+    Align = alClient
+    Proportional = True
+  end
+  object Button11: TButton
+    Left = 72
+    Height = 40
+    Top = 272
+    Width = 40
+    Caption = ','
+    OnClick = NumButtonClick
+    TabOrder = 0
+  end
+  object Button12: TButton
+    Left = 128
+    Height = 40
+    Top = 272
+    Width = 40
+    Caption = '='
+    OnClick = Button12Click
+    TabOrder = 1
+  end
+  object Button13: TButton
+    Left = 192
+    Height = 41
+    Top = 104
+    Width = 40
+    Caption = '+'
+    OnClick = Button13Click
+    TabOrder = 2
+  end
+  object Button14: TButton
+    Left = 192
+    Height = 41
+    Top = 160
+    Width = 40
+    Caption = '-'
+    OnClick = Button13Click
+    TabOrder = 3
+  end
+  object Button15: TButton
+    Left = 192
+    Height = 41
+    Top = 216
+    Width = 40
+    Caption = '+/-'
+    OnClick = Button13Click
+    TabOrder = 4
+  end
+  object Button16: TButton
+    Left = 248
+    Height = 41
+    Top = 104
+    Width = 40
+    Caption = '/'
+    OnClick = Button13Click
+    TabOrder = 5
+  end
+  object Button17: TButton
+    Left = 248
+    Height = 41
+    Top = 160
+    Width = 40
+    Caption = '*'
+    OnClick = Button13Click
+    TabOrder = 6
+  end
+  object Button18: TButton
+    Left = 248
+    Height = 40
+    Top = 216
+    Width = 40
+    Caption = '%'
+    OnClick = Button13Click
+    TabOrder = 7
+  end
+  object Button19: TButton
+    Left = 192
+    Height = 40
+    Top = 272
+    Width = 40
+    Caption = '^2'
+    OnClick = Button13Click
+    TabOrder = 8
+  end
+  object Button20: TButton
+    Left = 248
+    Height = 40
+    Top = 272
+    Width = 40
+    Caption = 'Sqrt'
+    OnClick = Button13Click
+    TabOrder = 9
+  end
+  object Button21: TButton
+    Left = 96
+    Height = 25
+    Top = 72
+    Width = 72
+    Caption = 'CE'
+    OnClick = Button21Click
+    TabOrder = 10
+  end
+  object Button22: TButton
+    Left = 16
+    Height = 25
+    Top = 72
+    Width = 72
+    Caption = 'C'
+    OnClick = Button22Click
+    TabOrder = 11
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 192
+    Height = 25
+    Top = 72
+    Width = 96
+    Caption = 'Backspace'
+    OnClick = SpeedButton1Click
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 32
+    Width = 272
+    Alignment = taRightJustify
+    TabOrder = 12
+  end
+  object History: TLabel
+    Left = 16
+    Height = 1
+    Top = 7
+    Width = 1
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 41
+    Top = 104
+    Width = 40
+    Caption = '1'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 13
+  end
+  object BitBtn2: TBitBtn
+    Left = 72
+    Height = 41
+    Top = 104
+    Width = 40
+    Caption = '2'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 14
+  end
+  object BitBtn3: TBitBtn
+    Left = 128
+    Height = 41
+    Top = 104
+    Width = 40
+    Caption = '3'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 15
+  end
+  object BitBtn4: TBitBtn
+    Left = 16
+    Height = 40
+    Top = 160
+    Width = 40
+    Caption = '4'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 16
+  end
+  object BitBtn5: TBitBtn
+    Left = 72
+    Height = 41
+    Top = 160
+    Width = 40
+    Caption = '5'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 17
+  end
+  object BitBtn6: TBitBtn
+    Left = 128
+    Height = 41
+    Top = 160
+    Width = 40
+    Caption = '6'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 18
+  end
+  object BitBtn7: TBitBtn
+    Left = 16
+    Height = 40
+    Top = 216
+    Width = 40
+    Caption = '7'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 19
+  end
+  object BitBtn8: TBitBtn
+    Left = 72
+    Height = 40
+    Top = 216
+    Width = 40
+    Caption = '8'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 20
+  end
+  object BitBtn9: TBitBtn
+    Left = 128
+    Height = 40
+    Top = 216
+    Width = 40
+    Caption = '9'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 21
+  end
+  object BitBtn10: TBitBtn
+    Left = 16
+    Height = 40
+    Top = 272
+    Width = 40
+    Caption = '0'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 22
+  end
+  object MainMenu1: TMainMenu
+    left = 344
+    top = 152
+    object Edit: TMenuItem
+      Caption = 'Edit'
+      object Copy1: TMenuItem
+        Caption = 'Copy'
+        OnClick = Copy1Click
+      end
+      object Paste: TMenuItem
+        Caption = 'Paste'
+        OnClick = PasteClick
+      end
+    end
+    object Mode: TMenuItem
+      Caption = 'Mode'
+      object Standart: TMenuItem
+        Caption = 'Standart'
+        Checked = True
+      end
+      object Extended1: TMenuItem
+        Caption = 'Extended'
+        OnClick = Extended1Click
+      end
+    end
+    object Languages: TMenuItem
+      Caption = 'Languages'
+      object Russian: TMenuItem
+        Caption = 'Russian'
+        OnClick = RussianClick
+      end
+      object English: TMenuItem
+        Caption = 'English'
+        OnClick = EnglishClick
+      end
+    end
+    object Themes: TMenuItem
+      Caption = 'Themes'
+      object MenuItemColorMG: TMenuItem
+        Caption = 'Money Green'
+        OnClick = MenuItemColorMGClick
+      end
+      object MenuItemColorSB: TMenuItem
+        Caption = 'Sky Blue'
+        OnClick = MenuItemColorSBClick
+      end
+      object MenuItemColorChild: TMenuItem
+        Caption = 'Children''s'
+        OnClick = MenuItemColorChildClick
+      end
+      object MenuItemColorDefault: TMenuItem
+        Caption = 'Default'
+        OnClick = MenuItemColorDefaultClick
+      end
+    end
+    object Help: TMenuItem
+      Caption = 'Help'
+      object About: TMenuItem
+        Caption = 'About'
+        OnClick = AboutClick
+      end
+      object Help1: TMenuItem
+        Caption = 'Help'
+        OnClick = Help1Click
+      end
+    end
+  end
+  object ActionList1: TActionList
+    left = 344
+    top = 96
+    object CopyAction: TAction
+      Caption = 'Copy'
+      ShortCut = 16451
+    end
+    object PasteAction: TAction
+      Caption = 'PasteAction'
+      ShortCut = 16470
+    end
+  end
+end

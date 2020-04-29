@@ -1,0 +1,526 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tform1.about.caption
+msgctxt "tform1.about.caption"
+msgid "About"
+msgstr "О программе"
+
+#: tform1.button1.caption
+msgctxt "tform1.button1.caption"
+msgid "1"
+msgstr ""
+
+#: tform1.button10.caption
+msgctxt "tform1.button10.caption"
+msgid "0"
+msgstr ""
+
+#: tform1.button11.caption
+msgctxt "tform1.button11.caption"
+msgid ","
+msgstr ""
+
+#: tform1.button12.caption
+msgctxt "tform1.button12.caption"
+msgid "="
+msgstr ""
+
+#: tform1.button13.caption
+msgctxt "tform1.button13.caption"
+msgid "+"
+msgstr ""
+
+#: tform1.button14.caption
+msgctxt "tform1.button14.caption"
+msgid "-"
+msgstr ""
+
+#: tform1.button15.caption
+msgctxt "tform1.button15.caption"
+msgid "+/-"
+msgstr ""
+
+#: tform1.button16.caption
+msgctxt "tform1.button16.caption"
+msgid "/"
+msgstr ""
+
+#: tform1.button17.caption
+msgctxt "tform1.button17.caption"
+msgid "*"
+msgstr ""
+
+#: tform1.button18.caption
+msgctxt "tform1.button18.caption"
+msgid "%"
+msgstr ""
+
+#: tform1.button19.caption
+msgctxt "tform1.button19.caption"
+msgid "^2"
+msgstr ""
+
+#: tform1.button2.caption
+msgctxt "tform1.button2.caption"
+msgid "2"
+msgstr ""
+
+#: tform1.button20.caption
+msgctxt "tform1.button20.caption"
+msgid "Sqrt"
+msgstr ""
+
+#: tform1.button21.caption
+msgctxt "tform1.button21.caption"
+msgid "CE"
+msgstr ""
+
+#: tform1.button22.caption
+msgctxt "tform1.button22.caption"
+msgid "C"
+msgstr ""
+
+#: tform1.button3.caption
+msgctxt "tform1.button3.caption"
+msgid "3"
+msgstr ""
+
+#: tform1.button4.caption
+msgctxt "tform1.button4.caption"
+msgid "4"
+msgstr ""
+
+#: tform1.button5.caption
+msgctxt "tform1.button5.caption"
+msgid "5"
+msgstr ""
+
+#: tform1.button6.caption
+msgctxt "tform1.button6.caption"
+msgid "6"
+msgstr ""
+
+#: tform1.button7.caption
+msgctxt "tform1.button7.caption"
+msgid "7"
+msgstr ""
+
+#: tform1.button8.caption
+msgctxt "tform1.button8.caption"
+msgid "8"
+msgstr ""
+
+#: tform1.button9.caption
+msgctxt "tform1.button9.caption"
+msgid "9"
+msgstr ""
+
+#: tform1.caption
+msgid "Calculator"
+msgstr "Калькулятор"
+
+#: tform1.copy1.caption
+msgctxt "tform1.copy1.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tform1.copyaction.caption
+msgctxt "tform1.copyaction.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tform1.edit.caption
+msgctxt "tform1.edit.caption"
+msgid "Edit"
+msgstr "Редактирование"
+
+#: tform1.english.caption
+msgctxt "tform1.english.caption"
+msgid "English"
+msgstr "Английский"
+
+#: tform1.extended1.caption
+msgctxt "tform1.extended1.caption"
+msgid "Extended"
+msgstr "Расширенный"
+
+#: tform1.help.caption
+msgctxt "tform1.help.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tform1.help1.caption
+msgctxt "tform1.help1.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tform1.languages.caption
+msgctxt "tform1.languages.caption"
+msgid "Languages"
+msgstr "Языки"
+
+#: tform1.menuitemcolorchild.caption
+msgctxt "tform1.menuitemcolorchild.caption"
+msgid "Children's"
+msgstr "Детская"
+
+#: tform1.menuitemcolordefault.caption
+msgctxt "tform1.menuitemcolordefault.caption"
+msgid "Default"
+msgstr "Стандартная"
+
+#: tform1.menuitemcolormg.caption
+msgctxt "tform1.menuitemcolormg.caption"
+msgid "Money Green"
+msgstr "Money Green"
+
+#: tform1.menuitemcolorsb.caption
+msgctxt "tform1.menuitemcolorsb.caption"
+msgid "Sky Blue"
+msgstr "Sky Blue"
+
+#: tform1.mode.caption
+msgctxt "tform1.mode.caption"
+msgid "Mode"
+msgstr "Режим"
+
+#: tform1.paste.caption
+msgctxt "tform1.paste.caption"
+msgid "Paste"
+msgstr "Вставить"
+
+#: tform1.pasteaction.caption
+msgctxt "tform1.pasteaction.caption"
+msgid "PasteAction"
+msgstr "Вставить"
+
+#: tform1.russian.caption
+msgctxt "tform1.russian.caption"
+msgid "Russian"
+msgstr "Русский"
+
+#: tform1.speedbutton1.caption
+msgctxt "tform1.speedbutton1.caption"
+msgid "Backspace"
+msgstr ""
+
+#: tform1.standart.caption
+msgctxt "tform1.standart.caption"
+msgid "Standart"
+msgstr "Обычный"
+
+#: tform1.themes.caption
+msgctxt "tform1.themes.caption"
+msgid "Themes"
+msgstr "Темы"
+
+#: tform2.about.caption
+msgctxt "tform2.about.caption"
+msgid "About"
+msgstr "О программе"
+
+#: tform2.button1.caption
+msgctxt "tform2.button1.caption"
+msgid "1"
+msgstr ""
+
+#: tform2.button10.caption
+msgctxt "tform2.button10.caption"
+msgid "0"
+msgstr ""
+
+#: tform2.button11.caption
+msgctxt "tform2.button11.caption"
+msgid ","
+msgstr ""
+
+#: tform2.button12.caption
+msgctxt "tform2.button12.caption"
+msgid "="
+msgstr ""
+
+#: tform2.button13.caption
+msgctxt "tform2.button13.caption"
+msgid "+"
+msgstr ""
+
+#: tform2.button14.caption
+msgctxt "tform2.button14.caption"
+msgid "-"
+msgstr ""
+
+#: tform2.button15.caption
+msgctxt "tform2.button15.caption"
+msgid "+/-"
+msgstr ""
+
+#: tform2.button16.caption
+msgctxt "tform2.button16.caption"
+msgid "/"
+msgstr ""
+
+#: tform2.button17.caption
+msgctxt "tform2.button17.caption"
+msgid "*"
+msgstr ""
+
+#: tform2.button18.caption
+msgctxt "tform2.button18.caption"
+msgid "%"
+msgstr ""
+
+#: tform2.button19.caption
+msgctxt "tform2.button19.caption"
+msgid "^2"
+msgstr ""
+
+#: tform2.button2.caption
+msgctxt "tform2.button2.caption"
+msgid "2"
+msgstr ""
+
+#: tform2.button20.caption
+msgctxt "tform2.button20.caption"
+msgid "Sqrt"
+msgstr ""
+
+#: tform2.button21.caption
+msgctxt "tform2.button21.caption"
+msgid "CE"
+msgstr ""
+
+#: tform2.button22.caption
+msgctxt "tform2.button22.caption"
+msgid "C"
+msgstr ""
+
+#: tform2.button3.caption
+msgctxt "tform2.button3.caption"
+msgid "3"
+msgstr ""
+
+#: tform2.button4.caption
+msgctxt "tform2.button4.caption"
+msgid "4"
+msgstr ""
+
+#: tform2.button5.caption
+msgctxt "tform2.button5.caption"
+msgid "5"
+msgstr ""
+
+#: tform2.button6.caption
+msgctxt "tform2.button6.caption"
+msgid "6"
+msgstr ""
+
+#: tform2.button7.caption
+msgctxt "tform2.button7.caption"
+msgid "7"
+msgstr ""
+
+#: tform2.button8.caption
+msgctxt "tform2.button8.caption"
+msgid "8"
+msgstr ""
+
+#: tform2.button9.caption
+msgctxt "tform2.button9.caption"
+msgid "9"
+msgstr ""
+
+#: tform2.buttonabs.caption
+msgid "abs"
+msgstr ""
+
+#: tform2.buttoncos.caption
+msgid "cos"
+msgstr ""
+
+#: tform2.buttonctg.caption
+msgid "ctg"
+msgstr ""
+
+#: tform2.buttonfact.caption
+msgid "x!"
+msgstr ""
+
+#: tform2.buttonln.caption
+msgid "ln"
+msgstr ""
+
+#: tform2.buttonlog.caption
+msgid "log"
+msgstr ""
+
+#: tform2.buttonsin.caption
+msgid "sin"
+msgstr ""
+
+#: tform2.buttonsys2.caption
+msgctxt "tform2.buttonsys2.caption"
+msgid "2"
+msgstr ""
+
+#: tform2.buttonsys3.caption
+msgctxt "tform2.buttonsys3.caption"
+msgid "3"
+msgstr ""
+
+#: tform2.buttonsys4.caption
+msgctxt "tform2.buttonsys4.caption"
+msgid "4"
+msgstr ""
+
+#: tform2.buttonsys5.caption
+msgctxt "tform2.buttonsys5.caption"
+msgid "5"
+msgstr ""
+
+#: tform2.buttonsys6.caption
+msgctxt "tform2.buttonsys6.caption"
+msgid "6"
+msgstr ""
+
+#: tform2.buttonsys7.caption
+msgctxt "tform2.buttonsys7.caption"
+msgid "7"
+msgstr ""
+
+#: tform2.buttonsys8.caption
+msgctxt "tform2.buttonsys8.caption"
+msgid "8"
+msgstr ""
+
+#: tform2.buttontg.caption
+msgid "tg"
+msgstr ""
+
+#: tform2.caption
+msgid "Extended calculator"
+msgstr "Расширенный калькулятор"
+
+#: tform2.copy1.caption
+msgctxt "tform2.copy1.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tform2.copyaction.caption
+msgctxt "tform2.copyaction.caption"
+msgid "Copy"
+msgstr "Копировать"
+
+#: tform2.edit.caption
+msgctxt "tform2.edit.caption"
+msgid "Edit"
+msgstr "Редактирование"
+
+#: tform2.english.caption
+msgctxt "tform2.english.caption"
+msgid "English"
+msgstr "Английский"
+
+#: tform2.extended1.caption
+msgctxt "tform2.extended1.caption"
+msgid "Extended"
+msgstr "Расширенный"
+
+#: tform2.help.caption
+msgctxt "tform2.help.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tform2.help1.caption
+msgctxt "tform2.help1.caption"
+msgid "Help"
+msgstr "Помощь"
+
+#: tform2.label1.caption
+msgid "Translation to number system"
+msgstr "Перевод в систему счисления"
+
+#: tform2.languages.caption
+msgctxt "tform2.languages.caption"
+msgid "Languages"
+msgstr "Языки"
+
+#: tform2.menuitemcolorchild.caption
+msgctxt "tform2.menuitemcolorchild.caption"
+msgid "Children's"
+msgstr "Детская"
+
+#: tform2.menuitemcolordefault.caption
+msgctxt "tform2.menuitemcolordefault.caption"
+msgid "Default"
+msgstr "Стандартная"
+
+#: tform2.menuitemcolormg.caption
+msgctxt "tform2.menuitemcolormg.caption"
+msgid "Money Green"
+msgstr "Money Green"
+
+#: tform2.menuitemcolorsb.caption
+msgctxt "tform2.menuitemcolorsb.caption"
+msgid "Sky Blue"
+msgstr "Sky Blue"
+
+#: tform2.mode.caption
+msgctxt "tform2.mode.caption"
+msgid "Mode"
+msgstr "Режим"
+
+#: tform2.paste.caption
+msgctxt "tform2.paste.caption"
+msgid "Paste"
+msgstr "Вставить"
+
+#: tform2.pasteaction.caption
+msgctxt "tform2.pasteaction.caption"
+msgid "PasteAction"
+msgstr "Вставить"
+
+#: tform2.russian.caption
+msgctxt "tform2.russian.caption"
+msgid "Russian"
+msgstr "Русский"
+
+#: tform2.speedbutton1.caption
+msgctxt "tform2.speedbutton1.caption"
+msgid "Backspace"
+msgstr ""
+
+#: tform2.speedbutton2.caption
+msgid "x^y"
+msgstr ""
+
+#: tform2.standart.caption
+msgctxt "tform2.standart.caption"
+msgid "Standart"
+msgstr "Обычный"
+
+#: tform2.themes.caption
+msgctxt "tform2.themes.caption"
+msgid "Themes"
+msgstr "Темы"
+
+#: tform3.button1.caption
+msgid "Close"
+msgstr "Закрыть"
+
+#: tform3.caption
+msgctxt "tform3.caption"
+msgid "About"
+msgstr "О программе"
+
+#: tform3.label1.caption
+msgid ""
+"New 2020 super-4k-ultra-hd premium THE BEAST CALCULATOR\n"
+"Developers: Soyko Anastasiya, Sergeev Vladimir, Melnikov Alexandr\n"
+msgstr ""
+
+#: tform4.caption
+msgctxt "tform4.caption"
+msgid "Help"
+msgstr "Помощь"
+

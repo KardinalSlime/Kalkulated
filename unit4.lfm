@@ -1,0 +1,10 @@
+object Form4: TForm4
+  Left = 779
+  Height = 240
+  Top = 561
+  Width = 320
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Help'
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+end

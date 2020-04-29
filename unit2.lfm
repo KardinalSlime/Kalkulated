@@ -1,0 +1,489 @@
+object Form2: TForm2
+  Left = 596
+  Height = 459
+  Top = 222
+  Width = 425
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Extended calculator'
+  ClientHeight = 439
+  ClientWidth = 425
+  Menu = MainMenu1
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = -4
+    Height = 439
+    Top = 0
+    Width = 436
+    Proportional = True
+  end
+  object Label1: TLabel
+    Left = 128
+    Height = 15
+    Top = 304
+    Width = 156
+    Caption = 'Translation to number system'
+    ParentColor = False
+  end
+  object Button11: TButton
+    Left = 72
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = ','
+    OnClick = NumButtonClick
+    TabOrder = 0
+  end
+  object Button12: TButton
+    Left = 128
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = '='
+    OnClick = Button12Click
+    TabOrder = 1
+  end
+  object Button13: TButton
+    Left = 192
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = '+'
+    OnClick = Button13Click
+    TabOrder = 2
+  end
+  object Button14: TButton
+    Left = 192
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '-'
+    OnClick = Button13Click
+    TabOrder = 3
+  end
+  object Button15: TButton
+    Left = 192
+    Height = 41
+    Top = 199
+    Width = 40
+    Caption = '+/-'
+    OnClick = Button13Click
+    TabOrder = 4
+  end
+  object Button16: TButton
+    Left = 248
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = '/'
+    OnClick = Button13Click
+    TabOrder = 5
+  end
+  object Button17: TButton
+    Left = 248
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '*'
+    OnClick = Button13Click
+    TabOrder = 6
+  end
+  object Button18: TButton
+    Left = 248
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '%'
+    OnClick = Button13Click
+    TabOrder = 7
+  end
+  object Button19: TButton
+    Left = 192
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = '^2'
+    OnClick = Button13Click
+    TabOrder = 8
+  end
+  object Button20: TButton
+    Left = 248
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = 'Sqrt'
+    OnClick = Button13Click
+    TabOrder = 9
+  end
+  object Button21: TButton
+    Left = 96
+    Height = 25
+    Top = 56
+    Width = 72
+    Caption = 'CE'
+    OnClick = Button21Click
+    TabOrder = 10
+  end
+  object Button22: TButton
+    Left = 16
+    Height = 25
+    Top = 56
+    Width = 72
+    Caption = 'C'
+    OnClick = Button22Click
+    TabOrder = 11
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 192
+    Height = 25
+    Top = 56
+    Width = 96
+    Caption = 'Backspace'
+    OnClick = SpeedButton1Click
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 16
+    Width = 392
+    Alignment = taRightJustify
+    TabOrder = 12
+  end
+  object ButtonSin: TButton
+    Left = 312
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = 'sin'
+    OnClick = Button13Click
+    TabOrder = 13
+  end
+  object ButtonTg: TButton
+    Left = 312
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = 'tg'
+    OnClick = Button13Click
+    TabOrder = 14
+  end
+  object ButtonLog: TButton
+    Left = 312
+    Height = 41
+    Top = 199
+    Width = 40
+    Caption = 'log'
+    OnClick = Button13Click
+    TabOrder = 15
+  end
+  object ButtonCos: TButton
+    Left = 368
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = 'cos'
+    OnClick = Button13Click
+    TabOrder = 16
+  end
+  object ButtonCtg: TButton
+    Left = 368
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = 'ctg'
+    OnClick = Button13Click
+    TabOrder = 17
+  end
+  object ButtonLn: TButton
+    Left = 368
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = 'ln'
+    OnClick = Button13Click
+    TabOrder = 18
+  end
+  object ButtonFact: TButton
+    Left = 312
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = 'x!'
+    OnClick = Button13Click
+    TabOrder = 19
+  end
+  object ButtonAbs: TButton
+    Left = 368
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = 'abs'
+    OnClick = Button13Click
+    TabOrder = 20
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 312
+    Height = 25
+    Top = 56
+    Width = 96
+    Caption = 'x^y'
+    OnClick = Button13Click
+  end
+  object ButtonSys2: TButton
+    Left = 16
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '2'
+    OnClick = SystemClick
+    TabOrder = 21
+  end
+  object ButtonSys3: TButton
+    Left = 72
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '3'
+    OnClick = SystemClick
+    TabOrder = 22
+  end
+  object ButtonSys4: TButton
+    Left = 128
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '4'
+    OnClick = SystemClick
+    TabOrder = 23
+  end
+  object ButtonSys5: TButton
+    Left = 192
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '5'
+    OnClick = SystemClick
+    TabOrder = 24
+  end
+  object ButtonSys6: TButton
+    Left = 248
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '6'
+    OnClick = SystemClick
+    TabOrder = 25
+  end
+  object ButtonSys7: TButton
+    Left = 312
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '7'
+    OnClick = SystemClick
+    TabOrder = 26
+  end
+  object ButtonSys8: TButton
+    Left = 368
+    Height = 40
+    Top = 328
+    Width = 40
+    Caption = '8'
+    OnClick = SystemClick
+    TabOrder = 27
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 388
+    Width = 160
+    TabOrder = 28
+  end
+  object History: TLabel
+    Left = 16
+    Height = 1
+    Top = 0
+    Width = 1
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = '1'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 29
+  end
+  object BitBtn2: TBitBtn
+    Left = 72
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = '2'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 30
+  end
+  object BitBtn3: TBitBtn
+    Left = 128
+    Height = 41
+    Top = 88
+    Width = 40
+    Caption = '3'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 31
+  end
+  object BitBtn4: TBitBtn
+    Left = 16
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '4'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 32
+  end
+  object BitBtn5: TBitBtn
+    Left = 72
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '5'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 33
+  end
+  object BitBtn6: TBitBtn
+    Left = 128
+    Height = 41
+    Top = 144
+    Width = 40
+    Caption = '6'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 34
+  end
+  object BitBtn7: TBitBtn
+    Left = 16
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '7'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 35
+  end
+  object BitBtn8: TBitBtn
+    Left = 72
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '8'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 36
+  end
+  object BitBtn9: TBitBtn
+    Left = 128
+    Height = 40
+    Top = 200
+    Width = 40
+    Caption = '9'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 37
+  end
+  object BitBtn10: TBitBtn
+    Left = 16
+    Height = 40
+    Top = 256
+    Width = 40
+    Caption = '0'
+    Layout = blGlyphTop
+    OnClick = NumButtonClick
+    TabOrder = 38
+  end
+  object MainMenu1: TMainMenu
+    left = 16
+    top = 424
+    object Edit: TMenuItem
+      Caption = 'Edit'
+      object Copy1: TMenuItem
+        Caption = 'Copy'
+        OnClick = Copy1Click
+      end
+      object Paste: TMenuItem
+        Caption = 'Paste'
+        OnClick = PasteClick
+      end
+    end
+    object Mode: TMenuItem
+      Caption = 'Mode'
+      object Standart: TMenuItem
+        Caption = 'Standart'
+        OnClick = StandartClick
+      end
+      object Extended1: TMenuItem
+        Caption = 'Extended'
+        Checked = True
+      end
+    end
+    object Languages: TMenuItem
+      Caption = 'Languages'
+      object Russian: TMenuItem
+        Caption = 'Russian'
+        OnClick = RussianClick
+      end
+      object English: TMenuItem
+        Caption = 'English'
+        OnClick = EnglishClick
+      end
+    end
+    object Themes: TMenuItem
+      Caption = 'Themes'
+      object MenuItemColorMG: TMenuItem
+        Caption = 'Money Green'
+        OnClick = MenuItemColorMGClick
+      end
+      object MenuItemColorSB: TMenuItem
+        Caption = 'Sky Blue'
+        OnClick = MenuItemColorSBClick
+      end
+      object MenuItemColorChild: TMenuItem
+        Caption = 'Children''s'
+        OnClick = MenuItemColorChildClick
+      end
+      object MenuItemColorDefault: TMenuItem
+        Caption = 'Default'
+        OnClick = MenuItemColorDefaultClick
+      end
+    end
+    object Help: TMenuItem
+      Caption = 'Help'
+      object About: TMenuItem
+        Caption = 'About'
+        OnClick = AboutClick
+      end
+      object Help1: TMenuItem
+        Caption = 'Help'
+        OnClick = Help1Click
+      end
+    end
+  end
+  object ActionList1: TActionList
+    left = 16
+    top = 384
+    object CopyAction: TAction
+      Caption = 'Copy'
+      ShortCut = 16451
+    end
+    object PasteAction: TAction
+      Caption = 'PasteAction'
+      ShortCut = 16470
+    end
+  end
+end

@@ -1,0 +1,29 @@
+object Form3: TForm3
+  Left = 351
+  Height = 240
+  Top = 322
+  Width = 371
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'About'
+  ClientHeight = 0
+  ClientWidth = 0
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 30
+    Top = 48
+    Width = 354
+    Caption = 'New 2020 super-4k-ultra-hd premium THE BEAST CALCULATOR'#13#10'Developers: Soyko Anastasiya, Sergeev Vladimir, Melnikov Alexandr'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'Close'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end
